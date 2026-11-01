@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f5f7fb"/>
+  <rect x="48" y="42" width="7" height="76" rx="3" fill="#2a9d8f"/>
+  <text x="78" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#172b4d">ROBOT MOTION LAB</text>
+  <text x="78" y="108" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#5e6c84">Kinematics, damped least-squares IK and smooth trajectories</text>
+  <rect x="74" y="154" width="760" height="448" rx="18" fill="#ffffff" stroke="#dfe3eb"/>
+  <g opacity="0.35" fill="none" stroke-linecap="round">
+    <path d="M255 490L405 355L580 290" stroke="#94d2bd" stroke-width="14"/>
+    <path d="M255 490L385 325L525 240" stroke="#74b9b0" stroke-width="14"/>
+    <path d="M255 490L350 300L460 205" stroke="#4a99a5" stroke-width="14"/>
+  </g>
+  <path d="M610 315L425 185" fill="none" stroke="#6c757d" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M610 315L425 185" fill="none" stroke="#d1495b" stroke-width="2"/>
+  <g fill="none" stroke="#176b68" stroke-width="16" stroke-linecap="round">
+    <path d="M255 490L420 390L555 255"/>
+  </g>
+  <g fill="#ffffff" stroke="#172b4d" stroke-width="5">
+    <circle cx="255" cy="490" r="17"/><circle cx="420" cy="390" r="15"/><circle cx="555" cy="255" r="12"/>
+  </g>
+  <rect x="229" y="508" width="52" height="18" rx="4" fill="#172b4d"/>
+  <circle cx="610" cy="315" r="9" fill="#2a9d8f"/><circle cx="425" cy="185" r="9" fill="#d1495b"/>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#5e6c84">
+    <text x="604" y="345">Start</text><text x="390" y="170">Goal</text>
+    <line x1="124" y1="560" x2="182" y2="560" stroke="#6c757d" stroke-width="4" stroke-dasharray="10 8"/><text x="196" y="566">Desired Cartesian path</text>
+    <line x1="440" y1="560" x2="498" y2="560" stroke="#176b68" stroke-width="8"/><text x="512" y="566">Two-link arm</text>
+  </g>
+  <rect x="866" y="154" width="278" height="448" rx="18" fill="#172b4d"/>
+  <text x="898" y="198" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#9fb3d1">PATH TRACKING</text>
+  <text x="898" y="254" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">Maximum position error</text>
+  <text x="898" y="290" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#ffffff">&lt; 0.001 µm</text>
+  <line x1="898" y1="322" x2="1112" y2="322" stroke="#3d506f"/>
+  <text x="898" y="366" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">Trajectory samples</text>
+  <text x="898" y="402" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#ffffff">100</text>
+  <line x1="898" y1="434" x2="1112" y2="434" stroke="#3d506f"/>
+  <text x="898" y="478" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">Quintic time scaling</text>
+  <text x="898" y="514" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">7 unit tests passed</text>
+  <text x="898" y="562" font-family="Consolas,monospace" font-size="15" fill="#8ecae6">p_dot = J(q) q_dot</text>
+  <text x="48" y="645" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#7a869a">Analytical IK · Jacobian · Damped least squares · Minimum-jerk trajectory</text>
+</svg>

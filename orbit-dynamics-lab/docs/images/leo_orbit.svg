@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#f5f7fb"/>
+  <rect x="48" y="42" width="7" height="76" rx="3" fill="#d1495b"/>
+  <text x="78" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700" fill="#172b4d">ORBIT DYNAMICS LAB</text>
+  <text x="78" y="108" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#5e6c84">Two-body motion, J2 perturbation and RK4 propagation</text>
+  <rect x="74" y="154" width="760" height="448" rx="18" fill="#ffffff" stroke="#dfe3eb"/>
+  <g transform="translate(440 380)">
+    <ellipse rx="286" ry="142" transform="rotate(-24)" fill="none" stroke="#34699a" stroke-width="4"/>
+    <ellipse rx="286" ry="142" transform="translate(10 -5) rotate(-20)" fill="none" stroke="#d1495b" stroke-width="4" stroke-dasharray="12 8"/>
+    <circle r="84" fill="#8ecae6" stroke="#5b9dc4" stroke-width="3"/>
+    <ellipse rx="84" ry="26" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+    <ellipse rx="30" ry="84" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="207" cy="-119" r="10" fill="#2a9d8f" stroke="#ffffff" stroke-width="4"/>
+    <path d="M-20 -102L0 -135L20 -102" fill="none" stroke="#5e6c84" stroke-width="3"/>
+    <text x="-15" y="-146" font-family="Segoe UI,Arial,sans-serif" font-size="15" fill="#5e6c84">Z</text>
+  </g>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#5e6c84">
+    <line x1="124" y1="560" x2="182" y2="560" stroke="#34699a" stroke-width="4"/><text x="196" y="566">Two-body</text>
+    <line x1="350" y1="560" x2="408" y2="560" stroke="#d1495b" stroke-width="4" stroke-dasharray="12 8"/><text x="422" y="566">Two-body + J2</text>
+    <circle cx="653" cy="560" r="8" fill="#2a9d8f"/><text x="671" y="566">Initial state</text>
+  </g>
+  <rect x="866" y="154" width="278" height="448" rx="18" fill="#172b4d"/>
+  <text x="898" y="198" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2" fill="#9fb3d1">LEO PROPAGATION</text>
+  <text x="898" y="254" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">Orbital period</text>
+  <text x="898" y="290" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#ffffff">97.14 min</text>
+  <line x1="898" y1="322" x2="1112" y2="322" stroke="#3d506f"/>
+  <text x="898" y="366" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">Relative energy error</text>
+  <text x="898" y="402" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">1.624 × 10⁻⁹</text>
+  <line x1="898" y1="434" x2="1112" y2="434" stroke="#3d506f"/>
+  <text x="898" y="478" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#c7d2e4">J2 final separation</text>
+  <text x="898" y="514" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#ffffff">88.832 km</text>
+  <text x="898" y="562" font-family="Consolas,monospace" font-size="15" fill="#8ecae6">5 unit tests · RK4</text>
+  <text x="48" y="645" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#7a869a">7000 km semi-major axis · 51.6° inclination · Two orbital periods · Earth parameters</text>
+</svg>
